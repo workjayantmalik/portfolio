@@ -1,34 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio
+
+A dark-themed personal portfolio website for **Jayant Malik** — a Software Engineer from Chandigarh, India. Built with Next.js, React, TypeScript, and Tailwind CSS.
+
+## Features
+
+- **Sidebar** — Avatar, contact info, and social links (collapsible on mobile)
+- **Bottom navigation** — Five sections: About, Certifications, Skills, Portfolio, Contact
+- **About** — Bio and service cards (Web design, Web development, Mobile apps, Photography)
+- **Certifications** — Education and experience timeline
+- **Skills** — Visual progress bars for skill proficiency
+- **Portfolio** — Filterable project grid with categories
+- **Contact** — Embedded Google Map and contact form
+
+## Tech Stack
+
+| | |
+|---|---|
+| Framework | [Next.js](https://nextjs.org/) 12 |
+| UI Library | React 18 |
+| Language | TypeScript |
+| Styling | Tailwind CSS + custom CSS |
+| Icons | react-icons (Ionicons 5) |
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Scripts
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+| Command | Description |
+|---|---|
+| `npm run dev` | Start development server |
+| `npm run build` | Build for production |
+| `npm run start` | Start production server |
+| `npm run lint` | Run ESLint |
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Project Structure
 
-## Learn More
+```
+src/
+├── components/   # Navbar, Sidebar
+├── constants/    # Route definitions
+├── css/          # Tailwind directives and custom styles
+└── pages/        # About, Certifications, Skills, Portfolio, Contact
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Optimized for deployment on [Vercel](https://vercel.com).
