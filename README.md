@@ -18,6 +18,17 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
+## Projects Showcase
+
+### Project Alpha
+A collaborative task management app with real-time updates, drag-and-drop boards, and team analytics built using Next.js and WebSockets.
+
+### Project Beta
+An e-commerce platform featuring server-side rendering, dynamic product filtering, Stripe integration, and a headless CMS backend.
+
+### Project Gamma
+A personal finance tracker with interactive charts, budgeting tools, recurring transaction support, and CSV import/export functionality.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
