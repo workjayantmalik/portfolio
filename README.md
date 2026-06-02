@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+A personal portfolio site for Jayant Malik, a Software Engineer from Chandigarh, India. Built with Next.js, TypeScript, and Tailwind CSS, it features an interactive portfolio gallery, skills section, timeline-based experience, and a contact form.
+
 ## Getting Started
 
 First, run the development server:
